@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "http://localhost:5000",
+				target: "https://l4zarus-tools-l4zarus.netlify.app/",
 			},
 		},
 	},
