@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "https://l4zarus-tools-l4zarus.netlify.app/",
+				target: "https://l4zarus-tools-mern.onrender.com",
 			},
 		},
 	},
